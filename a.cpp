@@ -1,5 +1,7 @@
 #include<iostream>
-
+int even(){
+    return 0 ;
+}
 using namespace std; 
 int main (){
     freopen("input.txt","r",stdin);
@@ -7,5 +9,6 @@ int main (){
     int n ; 
     cin>>n ;
     cout<<n<<endl;
+
     return 0 ;
 }
